@@ -1,5 +1,10 @@
-// let kilometers = prompt("fornisci i kilometri che vuoi percorrere");
-// let  age = prompt("fornisci la tua età");
+let kilometers = prompt("fornisci i kilometri che vuoi percorrere");
+let  age = prompt("fornisci la tua età");
+
+let etàInput = document.getElementById("age");
+let kilometriInput = document.getElementById("kilometers");
+etàInput.value =  age;
+kilometriInput.value = kilometers;
 
 //calcolare il prezzo totale del viaggio
 
@@ -28,6 +33,8 @@ if(age<0){
 
 ticketFinalPrice.toFixed(2);
 console.log(`il prezzo del tuo biglietto è : ${ticketPriceNoDiscount}€`);
+
+
 
 
 
