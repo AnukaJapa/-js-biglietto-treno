@@ -1,5 +1,5 @@
-let kilometers = prompt("fornisci i kilometri che vuoi percorrere");
-let  age = prompt("fornisci la tua età");
+// let kilometers = prompt("fornisci i kilometri che vuoi percorrere");
+// let  age = prompt("fornisci la tua età");
 
 //calcolare il prezzo totale del viaggio
 
