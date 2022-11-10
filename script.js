@@ -39,7 +39,7 @@ console.log(button);
 button.addEventListener("click", ()=>{
 let text = document.getElementById("text");
 let textDiv = document.getElementById("textDiv");
-textDiv.classList.toggle("border-dark");
+textDiv.classList.add("border-dark");
 
 text.textContent = `il prezzo del tuo biglietto è : ${ticketPriceNoDiscount}€`
 } );
