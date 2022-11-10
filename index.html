@@ -12,23 +12,31 @@
 </head>
 <body>
     
-    <div class="container">
-        <div class="row mt-5 justify-content-center">
-            <h1 class="text-center mb-5">Calcolare il prezzo dell'biglietto di treno</h1>
-            <div class="col-3">
-                <div class="mb-3 mt-6">
-                    <label for="formGroupExampleInput" class="form-label">Kilometri da percorrere</label>
-                    <input readonly="readonly" type="number" class="form-control" id="kilometers" placeholder="inserire qua i kilometri da percorrere">
-                  </div>
-                  <div class="mb-3">
-                    <label for="formGroupExampleInput2" class="form-label">Età</label>
-                    <input readonly="readonly" type="number" class="form-control" id="age" placeholder="inserire qua la tua età">
-                  </div>   
-                  <div class="col-12123
-                   text-center"
-                  >
-                    <button class="btn btn-dark">Calcolare</button>
-                  </div>   
+    <div class="container-sm">
+        <div class="row justify-content-center">
+            <div class="col-7">
+                <div class="row mt-5 justify-content-center border border-dark">
+                    <h1 class="text-center m-5">Calcolare il prezzo dell'biglietto di treno</h1>
+                    <div class="col-6">
+                        <div class="mb-3 mt-6">
+                            <label for="formGroupExampleInput" class="form-label">Kilometri da percorrere</label>
+                            <input disabled type="number" class="form-control" id="kilometers" placeholder="inserire qua i kilometri da percorrere">
+                          </div>
+                          <div class="mb-3">
+                            <label for="formGroupExampleInput2" class="form-label">Età</label>
+                            <input disabled type="number" class="form-control" id="age" placeholder="inserire qua la tua età">
+                          </div>
+            
+                    </div>
+                          <div class="col-12 text-center">
+                            <button class="btn btn-dark calcButton">Calcolare</button>
+                          </div>
+            
+                            <div id =textDiv class="col-9 border text-center p-5 m-5 align-items-center">
+                                <p class="fs-4" id="text"></p>
+                            </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

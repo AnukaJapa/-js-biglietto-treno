@@ -1,6 +1,7 @@
 let kilometers = prompt("fornisci i kilometri che vuoi percorrere");
 let  age = prompt("fornisci la tua età");
 
+let button = document.querySelector(".calcButton");
 let etàInput = document.getElementById("age");
 let kilometriInput = document.getElementById("kilometers");
 etàInput.value =  age;
@@ -33,6 +34,16 @@ if(age<0){
 
 ticketFinalPrice.toFixed(2);
 console.log(`il prezzo del tuo biglietto è : ${ticketPriceNoDiscount}€`);
+
+console.log(button);
+button.addEventListener("click", ()=>{
+let text = document.getElementById("text");
+let textDiv = document.getElementById("textDiv");
+textDiv.classList.toggle("border-dark");
+
+text.textContent = `il prezzo del tuo biglietto è : ${ticketPriceNoDiscount}€`
+} );
+
 
 
 
