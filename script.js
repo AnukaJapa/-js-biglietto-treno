@@ -33,7 +33,7 @@ if(age<0){
 } 
 
 ticketFinalPrice.toFixed(2);
-console.log(`il prezzo del tuo biglietto è : ${ticketPriceNoDiscount}€`);
+console.log(`il prezzo del tuo biglietto è : ${ticketFinalPrice}€`);
 
 console.log(button);
 button.addEventListener("click", ()=>{
@@ -41,7 +41,7 @@ let text = document.getElementById("text");
 let textDiv = document.getElementById("textDiv");
 textDiv.classList.add("border-dark");
 
-text.textContent = `il prezzo del tuo biglietto è : ${ticketPriceNoDiscount}€`
+text.textContent = `il prezzo del tuo biglietto è : ${ticketFinalPrice}€`
 } );
 
 
