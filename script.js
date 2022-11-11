@@ -26,7 +26,7 @@ if(age<0){
 
     ticketFinalPrice = ticketPriceNoDiscount
 }else{
-    //quindi quando età 18
+    //quindi quando età <18
     discount = ticketPriceNoDiscount * 20/100;
 
     ticketFinalPrice = ticketPriceNoDiscount - discount;
